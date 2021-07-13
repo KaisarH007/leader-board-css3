@@ -43,13 +43,13 @@ nav ul li{
     
 }
 .profile{
-    width: 60px;
-    height: 50px;
+    width: 90px;
+    height: 65px;
 }
 
-.profile:hover{
+/* .profile:hover{
     transform: scale(2);
-}
+} */
 
 /* Common Style or Utilities */
 body{
@@ -94,6 +94,7 @@ Top Players Styles
 
 .player{
     display: flex;
+    flex-direction: column;
     align-items: center;
     
 }
@@ -122,13 +123,15 @@ transform: scale(1.5);
 
 .blog{
     display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(227, 231, 233);
 }
 .blog:hover{
     background-color: turquoise;
 }
 .blog-thum img{
     width: 177px;
-    height: 117pxs;
+    height: 100%;
     
 }
 /* .blog-thum:hover{
@@ -220,7 +223,7 @@ Media Queries
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 350px;
+        width: 375px;
         height: 180px;
     }
 
@@ -260,7 +263,7 @@ Media Queries
 @media only screen and (min-width:669px)and (max-width:972px) {
     header{
         display: flex;
-        width: 750px;
+        width: 768px;
         
     }
 
